@@ -12,4 +12,11 @@ module.exports = {
     'import/no-duplicates': 'error',
     'arrow-body-style': ['error', 'as-needed'],
   },
+  overrides: [
+    {
+      // Test files only
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react'],
+    },
+  ],
 }

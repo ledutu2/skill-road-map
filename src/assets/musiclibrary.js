@@ -55,7 +55,7 @@ export const MUSIC_LIBRARIES = [
     duration: 146, // Duration in seconds
   },
   {
-    id:5,
+    id: 5,
     url: 'https://www.bensound.com/bensound-music/bensound-love.mp3',
     title: 'Love',
     artist: 'Benjamin Tissot',

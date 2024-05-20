@@ -1,16 +1,11 @@
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native'
 import React from 'react'
+import {View} from 'react-native'
+import Button from './components/Button'
 
 const UnitTestScreen = () => (
   <View>
-    <TouchableOpacity style={styles.button}>
-      <Text>Click Me</Text>
-    </TouchableOpacity>
+    <Button>Click Me</Button>
   </View>
 )
 
 export default UnitTestScreen
-
-const styles = StyleSheet.create({
-  button: {},
-})

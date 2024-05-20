@@ -1,6 +1,6 @@
 import React from 'react'
-import {Text, TouchableOpacity} from 'react-native'
-function Button({styles, children}) {
+import {StyleSheet, Text, TouchableOpacity} from 'react-native'
+function Button({children}) {
   return (
     <TouchableOpacity style={[styles.button]}>
       <Text>{children}</Text>
@@ -8,3 +8,7 @@ function Button({styles, children}) {
   )
 }
 export default Button
+
+const styles = StyleSheet.create({
+  button: {},
+})

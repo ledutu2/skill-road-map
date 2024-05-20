@@ -4,13 +4,12 @@ import {AppState, Linking, StatusBar, StyleSheet, View} from 'react-native'
 import {useSelector} from 'react-redux'
 import {getAppStackState, getLoadingIndicator} from './store/selectors'
 import RouteKey from './navigation/RouteKey'
-import {DebugMenu, IndicatorDialog, Toast} from './components'
-import Config from './constants/configs'
+import {IndicatorDialog, Toast} from './components'
 
 function MainLayout() {
   const appState = useSelector(getAppStackState)
   const appStateRef = useRef(AppState.currentState)
-  console.log(appState);
+  console.log(appState)
   const showGlobalIndicator = useSelector(getLoadingIndicator)
 
   const handleAppState = useCallback(() => {

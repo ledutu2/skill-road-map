@@ -1,14 +1,10 @@
-import {StyleSheet, Text, View} from 'react-native'
 import React from 'react'
+import {Text, View} from 'react-native'
 
-const SecurityTestScreen = () => {
-  return (
-    <View>
-      <Text>SecurityTestScreen</Text>
-    </View>
-  )
-}
+const SecurityTestScreen = () => (
+  <View>
+    <Text>SecurityTestScreen</Text>
+  </View>
+)
 
 export default SecurityTestScreen
-
-const styles = StyleSheet.create({})

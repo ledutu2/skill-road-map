@@ -1,14 +1,10 @@
-import {StyleSheet, Text, View} from 'react-native'
 import React from 'react'
+import {Text, View} from 'react-native'
 
-const ProfilingScreen = () => {
-  return (
-    <View>
-      <Text>ProfilingScreen</Text>
-    </View>
-  )
-}
+const ProfilingScreen = () => (
+  <View>
+    <Text>ProfilingScreen</Text>
+  </View>
+)
 
 export default ProfilingScreen
-
-const styles = StyleSheet.create({})

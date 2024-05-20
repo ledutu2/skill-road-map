@@ -1,14 +1,10 @@
-import {StyleSheet, Text, View} from 'react-native'
 import React from 'react'
+import {Text, View} from 'react-native'
 
-const CICDScreen = () => {
-  return (
-    <View>
-      <Text>CICDScreen</Text>
-    </View>
-  )
-}
+const CICDScreen = () => (
+  <View>
+    <Text>CICDScreen</Text>
+  </View>
+)
 
 export default CICDScreen
-
-const styles = StyleSheet.create({})
